@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-=3(gfbd73+*sqjt6hp3_cl6&r%yzqif6a0dm+#bl3sq^k(!c-6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'humble-fiesta-jjvx44g9ggg3pwx4-8000.app.github.dev'
+]
 
 
 # Application definition
